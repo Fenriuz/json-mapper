@@ -49,6 +49,16 @@ Accepts an AWS SES-SNS event JSON and returns a list of mapped results.
 ]
 ```
 
+### Example cURL Request
+
+Test the endpoint with a sample AWS SES-SNS event from the AWS Lambda test data:
+
+```bash
+curl -X POST http://localhost:3000 \
+  -H "Content-Type: application/json" \
+  -d @<(curl -s https://raw.githubusercontent.com/aws/aws-lambda-go/refs/heads/main/events/testdata/ses-sns-event.json)
+```
+
 ## Project Setup
 
 ```bash
