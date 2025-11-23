@@ -41,7 +41,7 @@ Accepts an AWS SES-SNS event JSON and returns a list of mapped results.
     "spam": true,
     "virus": true,
     "dns": true,
-    "mes": "September",
+    "mes": "septiembre",
     "retrasado": false,
     "emisor": "user",
     "receptor": ["recipient"]
